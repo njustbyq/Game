@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\jlchip\Desktop\Project1\Project1\main.cpp(169,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\jlchip\Desktop\Project1\Project1\main.cpp(229,9): warning C4566: 由通用字符名称“\u2B06”表示的字符不能在当前代码页(936)中表示出来
+C:\Users\jlchip\Desktop\Project1\Project1\main.cpp(567,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\jlchip\Desktop\Project1\Project1\main.cpp(575,6): warning C4101: “n”: 未引用的局部变量
+  Project1.vcxproj -> C:\Users\jlchip\Desktop\Project1\Debug\Project1.exe
