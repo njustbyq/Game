@@ -701,9 +701,9 @@ void Gameplay() {
 				printf("  \n");
 				color(12);
 				printf("\t\t\t■ ■ ■ ■      ■      ■        ■ ■       \n");
-				printf("\t\t\t■               ■ ■   ■        ■    ■     \n");
-				printf("\t\t\t■ ■ ■         ■   ■ ■        ■     ■    \n");
-				printf("\t\t\t■               ■    ■■        ■    ■     \n");
+				printf("\t\t\t■            ■ ■    ■        ■    ■     \n");
+				printf("\t\t\t■ ■ ■        ■   ■  ■        ■     ■    \n");
+				printf("\t\t\t■            ■    ■ ■        ■    ■     \n");
 				printf("\t\t\t■ ■ ■ ■      ■      ■        ■ ■       \n");
 				gotoxy(17, 18);
 				color(14);
