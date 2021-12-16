@@ -9,6 +9,10 @@ def check_keydown_events(event, ai_settings, screen, ship, bullets):
         ship.moving_right = True
     elif event.key == pygame.K_SPACE:
         fire_bullets(ai_settings, screen, ship, bullets)
+    elif event.key == pygame.K_LEFT:
+        ship.moving_left = True
+    elif event.key == pygame.K_q:
+        sys.exit()
 
 def fire_bullets(ai_settings, screen, ship, bullets):
     """如果还没达到限制, 就发射一颗子弹"""
@@ -16,9 +20,7 @@ def fire_bullets(ai_settings, screen, ship, bullets):
     if len(bullets) < ai_settings.bullets_allowed:
         new_bullet = Bullet(ai_settings, screen, ship)
         bullets.add(new_bullet)
-    elif event.key == pygame.K_LEFT:
-        ship.moving_left = True
-
+    
 def check_keyup_events(event, ship):
     """响应松开"""
     if event.key == pygame.K_RIGHT:
