@@ -7,7 +7,8 @@ class Alien(Sprite):
     def __init__(self, ai_settings, screen):
         """初始化外星人并设置其起始位置"""
 
-        # python2.7中的继承, 需要两个实参
+        # python2.7中的继承, 需要两个实参:子类名和对象self
+        # 在python2.7中使用继承时,务必在定义父类时在括号内指定object
         super(Alien, self).__init__()
         self.screen = screen
         self.ai_settings = ai_settings
